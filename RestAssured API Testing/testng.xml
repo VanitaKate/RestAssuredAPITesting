@@ -3,7 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name=".SimpleGetTest"/>
+      
+      <class name="GoogleMap.gmGetResponseConvertToJASONPath"/>
+      <class name="GoogleMap.gmPost"/>
+      <class name="GoogleMap.GoogleMapBasic"/>
+      <class name="GoogleMap.postRequestToCreateCustomer"/>
+      <class name="GoogleMap.requestUsingRequestSpecification"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
